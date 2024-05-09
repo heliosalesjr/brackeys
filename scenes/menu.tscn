@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://byhs3733g4lkf"]
+
+[ext_resource type="FontFile" uid="uid://skkun3w7f0fw" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="1_p0o6d"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_2it8f"]
+font = ExtResource("1_p0o6d")
+font_size = 54
+
+[node name="Menu" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 631.0
+offset_top = 271.0
+offset_right = 709.0
+offset_bottom = 287.0
+text = "MENU!"
+label_settings = SubResource("LabelSettings_2it8f")
