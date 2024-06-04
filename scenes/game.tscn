@@ -10,7 +10,7 @@
 [ext_resource type="FontFile" uid="uid://dgvg3y7q8lbi1" path="res://assets/fonts/PixelOperator8.ttf" id="7_cyq1w"]
 [ext_resource type="PackedScene" uid="uid://g2oui810smr2" path="res://scenes/win_zone.tscn" id="9_vjw5r"]
 [ext_resource type="Texture2D" uid="uid://bqyynep8b7d4i" path="res://assets/mine/water_fill-Sheet.png" id="10_88xoq"]
-[ext_resource type="Texture2D" uid="uid://c4huun41c2so2" path="res://assets/mine/water_top.png" id="11_o0e6q"]
+[ext_resource type="Texture2D" uid="uid://di2cc3rtoub7n" path="res://assets/mine/water_top_right.png" id="11_esrbf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_44wh4"]
 texture = ExtResource("2_8pncj")
@@ -568,64 +568,64 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_j1208"]
-atlas = ExtResource("11_o0e6q")
+[sub_resource type="AtlasTexture" id="AtlasTexture_3shje"]
+atlas = ExtResource("11_esrbf")
 region = Rect2(0, 0, 16, 16)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_7vk5n"]
-atlas = ExtResource("11_o0e6q")
+[sub_resource type="AtlasTexture" id="AtlasTexture_qfc6e"]
+atlas = ExtResource("11_esrbf")
 region = Rect2(16, 0, 16, 16)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_w1i64"]
-atlas = ExtResource("11_o0e6q")
+[sub_resource type="AtlasTexture" id="AtlasTexture_mxot6"]
+atlas = ExtResource("11_esrbf")
 region = Rect2(32, 0, 16, 16)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_lfkbm"]
-atlas = ExtResource("11_o0e6q")
+[sub_resource type="AtlasTexture" id="AtlasTexture_l1qjc"]
+atlas = ExtResource("11_esrbf")
 region = Rect2(48, 0, 16, 16)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_nvq37"]
-atlas = ExtResource("11_o0e6q")
+[sub_resource type="AtlasTexture" id="AtlasTexture_0nx2d"]
+atlas = ExtResource("11_esrbf")
 region = Rect2(64, 0, 16, 16)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_wolvh"]
-atlas = ExtResource("11_o0e6q")
+[sub_resource type="AtlasTexture" id="AtlasTexture_x6j5e"]
+atlas = ExtResource("11_esrbf")
 region = Rect2(80, 0, 16, 16)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_etqbs"]
-atlas = ExtResource("11_o0e6q")
+[sub_resource type="AtlasTexture" id="AtlasTexture_u4agf"]
+atlas = ExtResource("11_esrbf")
 region = Rect2(96, 0, 16, 16)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_pkpvg"]
-atlas = ExtResource("11_o0e6q")
+[sub_resource type="AtlasTexture" id="AtlasTexture_qmuij"]
+atlas = ExtResource("11_esrbf")
 region = Rect2(112, 0, 16, 16)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_yobfq"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_fopo2"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_j1208")
+"texture": SubResource("AtlasTexture_3shje")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_7vk5n")
+"texture": SubResource("AtlasTexture_qfc6e")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_w1i64")
+"texture": SubResource("AtlasTexture_mxot6")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_lfkbm")
+"texture": SubResource("AtlasTexture_l1qjc")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_nvq37")
+"texture": SubResource("AtlasTexture_0nx2d")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_wolvh")
+"texture": SubResource("AtlasTexture_x6j5e")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_etqbs")
+"texture": SubResource("AtlasTexture_u4agf")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_pkpvg")
+"texture": SubResource("AtlasTexture_qmuij")
 }],
 "loop": true,
 "name": &"default",
@@ -647,7 +647,7 @@ layer_1/name = "Mid"
 layer_1/tile_data = PackedInt32Array(2097152, 0, 0, 2097153, 0, 0, 2031618, 0, 0, 2031619, 0, 0, 2031620, 0, 0, 2031621, 0, 0, 2031622, 0, 0, 2031623, 0, 0, 2097159, 0, 0, 2097160, 0, 0, 2097161, 0, 0, 2162697, 0, 0, 2162698, 0, 0, 2162699, 0, 0, 2162700, 0, 0, 2162701, 0, 0, 2162702, 0, 0, 2162703, 0, 0, 2162704, 0, 0, 2162705, 0, 0, 2162706, 0, 0, 2162709, 0, 0, 2162710, 0, 0, 2162711, 0, 0, 2162712, 0, 0, 2162713, 0, 0, 2162717, 0, 0, 2162718, 0, 0, 2162719, 0, 0, 2162720, 0, 0, 2162723, 0, 0, 2162724, 0, 0, 2162725, 0, 0, 2162726, 0, 0, 1835047, 0, 0, 1835048, 0, 0, 1835049, 0, 0, 1900583, 0, 1, 1966120, 0, 1, 2031656, 0, 1, 2031657, 0, 1, 1966121, 0, 1, 1900585, 0, 1, 1900584, 0, 1, 1966119, 0, 1, 2031655, 0, 1, 2097191, 0, 1, 2162727, 0, 1, 2162728, 0, 1, 2162729, 0, 1, 2097193, 0, 1, 2097192, 0, 1, 2162714, 589824, 0, 2162715, 655360, 0, 2162716, 720896, 0, 2162707, 589824, 0, 2162708, 720896, 0, 2162722, 720896, 0, 2162721, 589824, 0, 1769512, 0, 5, 1703976, 0, 3, 1966116, 262144, 0, 1966115, 262144, 0, 1638436, 262144, 0, 1638435, 262144, 0, 1835059, 262144, 0, 1900595, 0, 1, 1966131, 0, 1, 2031667, 0, 1, 1835060, 262144, 0, 1900596, 0, 1, 1966132, 0, 1, 2031668, 0, 1, 1835061, 262144, 0, 1900597, 0, 1, 1966133, 0, 1, 2031669, 0, 1, 1835062, 262144, 0, 1900598, 0, 1, 1966134, 0, 1, 2031670, 0, 1, 1835063, 262144, 0, 1900599, 0, 1, 1966135, 0, 1, 2031671, 0, 1, 2359338, 262144, 0, 2359339, 262144, 0, 2359340, 262144, 0, 2359341, 262144, 0, 2359342, 262144, 0, 2359343, 262144, 0, 2359344, 262144, 0, 2359345, 262144, 0, 2359346, 262144, 0, 2359347, 262144, 0, 2359348, 262144, 0, 2424871, 65536, 0, 2490407, 65536, 0, 2555943, 65536, 0, 2621479, 65536, 0, 2687015, 65536, 0, 2752551, 65536, 0, 2818087, 65536, 0, 2883623, 65536, 0, 2949159, 65536, 0, 2424870, 65536, 0, 2490406, 65536, 0, 2555942, 65536, 0, 2621478, 65536, 0, 2687014, 65536, 0, 2752550, 65536, 0, 2818086, 65536, 0, 2883622, 65536, 0, 2949158, 65536, 0, 3014694, 65536, 0)
 
 [node name="Player" parent="." instance=ExtResource("1_bxoxv")]
-position = Vector2(362, 495)
+position = Vector2(749, 644)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(11, -7)
@@ -841,25 +841,30 @@ frame_progress = 0.746444
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="WaterTop"]
 position = Vector2(649, 679)
-sprite_frames = SubResource("SpriteFrames_yobfq")
+sprite_frames = SubResource("SpriteFrames_fopo2")
 autoplay = "default"
+frame_progress = 0.460607
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="WaterTop"]
 position = Vector2(713, 679)
-sprite_frames = SubResource("SpriteFrames_yobfq")
+sprite_frames = SubResource("SpriteFrames_fopo2")
 autoplay = "default"
+frame_progress = 0.202868
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="WaterTop"]
-position = Vector2(697, 679)
-sprite_frames = SubResource("SpriteFrames_yobfq")
+position = Vector2(665, 679)
+sprite_frames = SubResource("SpriteFrames_fopo2")
 autoplay = "default"
+frame_progress = 0.202868
 
 [node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="WaterTop"]
-position = Vector2(681, 679)
-sprite_frames = SubResource("SpriteFrames_yobfq")
+position = Vector2(697, 679)
+sprite_frames = SubResource("SpriteFrames_fopo2")
 autoplay = "default"
+frame_progress = 0.202868
 
 [node name="AnimatedSprite2D5" type="AnimatedSprite2D" parent="WaterTop"]
-position = Vector2(665, 679)
-sprite_frames = SubResource("SpriteFrames_yobfq")
+position = Vector2(681, 679)
+sprite_frames = SubResource("SpriteFrames_fopo2")
 autoplay = "default"
+frame_progress = 0.202868
