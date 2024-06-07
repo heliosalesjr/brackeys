@@ -840,13 +840,20 @@ frame_progress = 0.746444
 [node name="WaterTop" type="Node" parent="."]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="WaterTop"]
+visible = false
 position = Vector2(649, 679)
 sprite_frames = SubResource("SpriteFrames_fopo2")
 autoplay = "default"
-frame_progress = 0.460607
+frame_progress = 0.877695
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="WaterTop"]
 position = Vector2(713, 679)
+sprite_frames = SubResource("SpriteFrames_fopo2")
+autoplay = "default"
+frame_progress = 0.202868
+
+[node name="AnimatedSprite2D6" type="AnimatedSprite2D" parent="WaterTop"]
+position = Vector2(649, 679)
 sprite_frames = SubResource("SpriteFrames_fopo2")
 autoplay = "default"
 frame_progress = 0.202868
